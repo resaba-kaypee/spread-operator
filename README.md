@@ -7,3 +7,12 @@ const sum = (function () {
   }
 })();
 sum(1, 2, 3);
+
+
+const arr1 = [1 ,2 3, 4, 5];
+let arr2;
+
+(function () {
+arr2 = [...arr1];
+})();
+console.log(arr2) // [1, 2, 3, 4, 5];
